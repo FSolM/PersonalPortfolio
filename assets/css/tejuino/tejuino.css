@@ -336,13 +336,13 @@ footer {
 /* ------------------------------- */
 /* Typography */
 a {
-  color: #1a1a1a;
+  color: inherit;
   font-size: inherit;
   text-decoration: none;
 }
 
 a:hover {
-  color: #004c9c;
+  color: inherit;
   text-decoration: underline;
 }
 

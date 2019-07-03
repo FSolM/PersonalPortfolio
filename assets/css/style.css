@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap");
+body {
+  font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+}
+
+p {
+  margin: 2.5rem 0;
+}
+
+.introduction-extra {
+  font-size: 2.5rem;
+}
+
+.introduction-extra span:nth-of-type(1) {
+  /* @Microverse Text */
+  color: #5f4eff;
+}
+
+.introduction-extra span:nth-of-type(2) {
+  /* @PozolCode Text */
+  color: #724400;
+}
+
+.introduction-social {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  margin: 3.5rem 0 0 0;
+  width: 100%;
+}
+
+.introduction-social li {
+  border-radius: 50%;
+}
+
+.introduction-title {
+  font-size: 3.8rem;
+  font-weight: 600;
+}
+
+.introduction-title span {
+  color: #678aff;
+}
+/*# sourceMappingURL=style.css.map */
