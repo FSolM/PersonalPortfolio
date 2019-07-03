@@ -30,7 +30,11 @@ p {
 }
 
 .introduction-social li {
+  height: 5rem;
   border-radius: 50%;
+  -webkit-box-shadow: 0 3px 6px #707070;
+          box-shadow: 0 3px 6px #707070;
+  width: 5rem;
 }
 
 .introduction-title {
