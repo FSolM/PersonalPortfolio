@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap");
 body {
+  color: #707070;
   font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
   background-color: #ededed;
 }
 
 h2 {
   font-size: 3rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 2.2rem;
   font-weight: 600;
 }
 
@@ -20,6 +26,17 @@ p {
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   width: 4rem;
+}
+
+.additional-projects p {
+  font-size: 1.7rem;
+  margin: 1.5rem 0;
+}
+
+.additional-projects .col-md-12 {
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  padding: 1.5rem;
 }
 
 .icon-github {
@@ -101,13 +118,40 @@ p {
   color: #678aff;
 }
 
+.main-container .row {
+  padding: 0;
+}
+
 .project-container {
+  color: #000000;
   background-color: #ffffff;
   border: 1px solid #707070;
+  font-weight: 600;
+}
+
+.project-container:hover {
+  -webkit-box-shadow: 0.5rem 0.5rem 0.6rem #04040463;
+          box-shadow: 0.5rem 0.5rem 0.6rem #04040463;
+  color: #ffffff;
+}
+
+.project-container.feature-blue:hover {
+  background-color: #4e77ff;
+}
+
+.project-container.feature-green:hover {
+  background-color: #21e135;
+}
+
+.project-container.feature-red:hover {
+  background-color: #ff4242;
+}
+
+.project-container.feature-yellow:hover {
+  background-color: #ffE014;
 }
 
 .project-container a:hover {
-  color: #ffffff;
   text-decoration: none;
 }
 
