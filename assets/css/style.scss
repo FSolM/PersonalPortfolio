@@ -2,6 +2,12 @@
 
 body {
   font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+  background-color: #ededed;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
 }
 
 p { margin: 2.5rem 0; }
@@ -76,7 +82,14 @@ p { margin: 2.5rem 0; }
   span { color: #678aff; }
 }
 
-.sticky-container { position: sticky; }
+.project-container {
+  border: 1px solid #707070;
+}
+
+.sticky-container {
+  position: sticky;
+  background-color: #ffffff;
+}
 
 @media screen and (max-width: 762px) {
   /* When sticky container display normally

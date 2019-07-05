@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap");
 body {
   font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+  background-color: #ededed;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
 }
 
 p {
@@ -95,9 +101,14 @@ p {
   color: #678aff;
 }
 
+.project-container {
+  border: 1px solid #707070;
+}
+
 .sticky-container {
   position: -webkit-sticky;
   position: sticky;
+  background-color: #ffffff;
 }
 
 @media screen and (max-width: 762px) {
