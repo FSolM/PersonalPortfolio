@@ -7,6 +7,15 @@ p {
   margin: 2.5rem 0;
 }
 
+[class^="icon-"] {
+  border-radius: 50%;
+  display: block;
+  height: 4rem;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  width: 4rem;
+}
+
 .icon-github {
   background-image: url("../images/logos/GitHub-Logo.png");
   background-size: 100%;
@@ -33,11 +42,13 @@ p {
 
 .icon-medium:hover {
   background-image: url("../images/logos/Medium-Logo-Alt.png");
+  border-radius: 25%;
 }
 
 .icon-linkedin {
   background-image: url("../images/logos/LinkedIn-Logo.png");
   background-size: 100%;
+  border-radius: 25%;
 }
 
 .icon-linkedin:hover {
@@ -73,15 +84,6 @@ p {
   list-style: none;
   margin: 3.5rem 0 0 0;
   width: 100%;
-}
-
-.introduction-social li a {
-  border-radius: 50%;
-  display: block;
-  height: 5rem;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
-  width: 5rem;
 }
 
 .introduction-title {

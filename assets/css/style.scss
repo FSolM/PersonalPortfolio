@@ -6,6 +6,14 @@ body {
 
 p { margin: 2.5rem 0; }
 
+[class^="icon-"] {
+  border-radius: 50%;
+  display: block;
+  height: 4rem;
+  transition: all 500ms ease;
+  width: 4rem;
+}
+
 .icon-github {
   background-image: url("../images/logos/GitHub-Logo.png");
   background-size: 100%;
@@ -24,12 +32,16 @@ p { margin: 2.5rem 0; }
 .icon-medium {
   background-image: url("../images/logos/Medium-Logo.png");
   background-size: 100%;
-  &:hover { background-image: url("../images/logos/Medium-Logo-Alt.png") }
+  &:hover {
+    background-image: url("../images/logos/Medium-Logo-Alt.png");
+    border-radius: 25%;
+  }
 }
 
 .icon-linkedin {
   background-image: url("../images/logos/LinkedIn-Logo.png");
   background-size: 100%;
+  border-radius: 25%;
   &:hover { background-image: url("../images/logos/LinkedIn-Logo-Alt.png"); }
 }
 
@@ -56,13 +68,6 @@ p { margin: 2.5rem 0; }
   list-style: none;
   margin: 3.5rem 0 0 0;
   width: 100%;
-  li a {
-    border-radius: 50%;
-    display: block;
-    height: 5rem;
-    transition: all 500ms ease;
-    width: 5rem;
-  }
 }
 
 .introduction-title {
