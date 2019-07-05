@@ -6,6 +6,39 @@ body {
 
 p { margin: 2.5rem 0; }
 
+.icon-github {
+  background-image: url("../images/logos/GitHub-Logo.png");
+  background-size: 100%;
+  &:hover { background-image: url("../images/logos/GitHub-Logo-Alt.png"); }
+}
+
+.icon-instagram {
+  background-image: url("../images/logos/Instagram-Logo.png");
+  background-size: 100%;
+  &:hover {
+    background-image: url("../images/logos/Instagram-Logo-Alt.png");
+    border-radius: 25%;
+  }
+}
+
+.icon-medium {
+  background-image: url("../images/logos/Medium-Logo.png");
+  background-size: 100%;
+  &:hover { background-image: url("../images/logos/Medium-Logo-Alt.png") }
+}
+
+.icon-linkedin {
+  background-image: url("../images/logos/LinkedIn-Logo.png");
+  background-size: 100%;
+  &:hover { background-image: url("../images/logos/LinkedIn-Logo-Alt.png"); }
+}
+
+.icon-twitter {
+  background-image: url("../images/logos/Twitter-Logo.png");
+  background-size: 100%;
+  &:hover { background-image: url("../images/logos/Twitter-Logo-Alt.png") }
+}
+
 .introduction-extra {
   font-size: 2.5rem;
   span:nth-of-type(1) {
@@ -23,10 +56,11 @@ p { margin: 2.5rem 0; }
   list-style: none;
   margin: 3.5rem 0 0 0;
   width: 100%;
-  li {
-    height: 5rem;
+  li a {
     border-radius: 50%;
-    box-shadow: 0 3px 6px #707070;
+    display: block;
+    height: 5rem;
+    transition: all 500ms ease;
     width: 5rem;
   }
 }

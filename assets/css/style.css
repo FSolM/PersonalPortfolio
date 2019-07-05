@@ -7,6 +7,52 @@ p {
   margin: 2.5rem 0;
 }
 
+.icon-github {
+  background-image: url("../images/logos/GitHub-Logo.png");
+  background-size: 100%;
+}
+
+.icon-github:hover {
+  background-image: url("../images/logos/GitHub-Logo-Alt.png");
+}
+
+.icon-instagram {
+  background-image: url("../images/logos/Instagram-Logo.png");
+  background-size: 100%;
+}
+
+.icon-instagram:hover {
+  background-image: url("../images/logos/Instagram-Logo-Alt.png");
+  border-radius: 25%;
+}
+
+.icon-medium {
+  background-image: url("../images/logos/Medium-Logo.png");
+  background-size: 100%;
+}
+
+.icon-medium:hover {
+  background-image: url("../images/logos/Medium-Logo-Alt.png");
+}
+
+.icon-linkedin {
+  background-image: url("../images/logos/LinkedIn-Logo.png");
+  background-size: 100%;
+}
+
+.icon-linkedin:hover {
+  background-image: url("../images/logos/LinkedIn-Logo-Alt.png");
+}
+
+.icon-twitter {
+  background-image: url("../images/logos/Twitter-Logo.png");
+  background-size: 100%;
+}
+
+.icon-twitter:hover {
+  background-image: url("../images/logos/Twitter-Logo-Alt.png");
+}
+
 .introduction-extra {
   font-size: 2.5rem;
 }
@@ -29,11 +75,12 @@ p {
   width: 100%;
 }
 
-.introduction-social li {
-  height: 5rem;
+.introduction-social li a {
   border-radius: 50%;
-  -webkit-box-shadow: 0 3px 6px #707070;
-          box-shadow: 0 3px 6px #707070;
+  display: block;
+  height: 5rem;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
   width: 5rem;
 }
 
