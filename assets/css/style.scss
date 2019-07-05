@@ -76,4 +76,11 @@ p { margin: 2.5rem 0; }
   span { color: #678aff; }
 }
 
+.sticky-container { position: sticky; }
 
+@media screen and (max-width: 762px) {
+  /* When sticky container display normally
+  it's size is actually less than the collapsed
+  version */
+  .sticky-container { position: relative; }
+}
