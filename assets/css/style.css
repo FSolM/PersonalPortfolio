@@ -102,7 +102,13 @@ p {
 }
 
 .project-container {
+  background-color: #ffffff;
   border: 1px solid #707070;
+}
+
+.project-container a:hover {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .sticky-container {
