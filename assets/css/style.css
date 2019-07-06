@@ -74,6 +74,25 @@ footer .col-md-12 {
   color: #ffffff;
 }
 
+.extra-section {
+  margin: 2.5rem 0;
+}
+
+.extra-section a:hover {
+  color: #a3a3a3;
+}
+
+.extra-section p {
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin: 4rem 0 4rem 1.5rem;
+}
+
+.extra-section .col-md-12 {
+  border-bottom: 0.25rem solid #707070;
+  border-top: 0.25rem solid #707070;
+}
+
 .icon-github {
   background-image: url("../images/logos/GitHub-Logo.png");
   background-size: 100%;
