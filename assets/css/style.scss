@@ -20,6 +20,15 @@ h4 {
 
 p { margin: 2.5rem 0; }
 
+footer {
+  .container { padding: 0; }
+  .col-md-12 {
+    background-color: #484848;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+
 [class^="icon-"] {
   border-radius: 50%;
   display: block;
