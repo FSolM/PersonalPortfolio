@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap");
+a:hover {
+  text-decoration: none;
+}
+
 body {
   color: #707070;
   font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
@@ -28,6 +32,21 @@ p {
   width: 4rem;
 }
 
+.additional-projects div:nth-of-type(1):hover,
+.additional-projects div:nth-of-type(4):hover {
+  background-color: #4e77ff;
+}
+
+.additional-projects div:nth-of-type(2):hover,
+.additional-projects div:nth-of-type(5):hover {
+  background-color: #ff4242;
+}
+
+.additional-projects div:nth-of-type(3):hover,
+.additional-projects div:nth-of-type(6):hover {
+  background-color: #21e135;
+}
+
 .additional-projects p {
   font-size: 1.7rem;
   margin: 1.5rem 0;
@@ -37,6 +56,12 @@ p {
   background-color: #ffffff;
   border: 1px solid #707070;
   padding: 1.5rem;
+}
+
+.additional-projects .col-md-12:hover {
+  -webkit-box-shadow: 0 0 0.6rem 0.2rem #04040463;
+          box-shadow: 0 0 0.6rem 0.2rem #04040463;
+  color: #ffffff;
 }
 
 .icon-github {
@@ -123,15 +148,14 @@ p {
 }
 
 .project-container {
-  color: #000000;
   background-color: #ffffff;
   border: 1px solid #707070;
   font-weight: 600;
 }
 
 .project-container:hover {
-  -webkit-box-shadow: 0.5rem 0.5rem 0.6rem #04040463;
-          box-shadow: 0.5rem 0.5rem 0.6rem #04040463;
+  -webkit-box-shadow: 0 0 0.6rem 0.2rem #04040463;
+          box-shadow: 0 0 0.6rem 0.2rem #04040463;
   color: #ffffff;
 }
 
@@ -149,10 +173,6 @@ p {
 
 .project-container.feature-yellow:hover {
   background-color: #ffE014;
-}
-
-.project-container a:hover {
-  text-decoration: none;
 }
 
 .sticky-container {

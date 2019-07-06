@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap');
 
+a:hover { text-decoration: none; }
+
 body {
   color: #707070;
   font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
@@ -27,6 +29,12 @@ p { margin: 2.5rem 0; }
 }
 
 .additional-projects {
+  div:nth-of-type(1):hover,
+  div:nth-of-type(4):hover { background-color: #4e77ff; }
+  div:nth-of-type(2):hover,
+  div:nth-of-type(5):hover { background-color: #ff4242; }
+  div:nth-of-type(3):hover,
+  div:nth-of-type(6):hover { background-color: #21e135; }
   p {
     font-size: 1.7rem;
     margin: 1.5rem 0;
@@ -35,6 +43,10 @@ p { margin: 2.5rem 0; }
     background-color: #ffffff;
     border: 1px solid #707070;
     padding: 1.5rem;
+    &:hover {
+      box-shadow: 0 0 0.6rem 0.2rem #04040463;
+      color: #ffffff;
+    }
   }
 }
 
@@ -105,19 +117,17 @@ p { margin: 2.5rem 0; }
 }
 
 .project-container {
-  color: #000000;
   background-color: #ffffff;
   border: 1px solid #707070;
   font-weight: 600;
   &:hover {
-    box-shadow: 0.5rem 0.5rem 0.6rem #04040463;
+    box-shadow: 0 0 0.6rem 0.2rem #04040463;
     color: #ffffff;
   }
   &.feature-blue:hover { background-color: #4e77ff; }
   &.feature-green:hover { background-color: #21e135; }
   &.feature-red:hover { background-color: #ff4242; }
   &.feature-yellow:hover { background-color: #ffE014; }
-  a:hover { text-decoration: none; }
 }
 
 .sticky-container {
