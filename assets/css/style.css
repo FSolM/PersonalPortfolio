@@ -176,17 +176,9 @@ p {
 }
 
 .sticky-container {
+  background-color: #ffffff;
   position: -webkit-sticky;
   position: sticky;
-  background-color: #ffffff;
-}
-
-@media screen and (max-width: 762px) {
-  /* When sticky container display normally
-  it's size is actually less than the collapsed
-  version */
-  .sticky-container {
-    position: relative;
-  }
+  top: 2.8rem;
 }
 /*# sourceMappingURL=style.css.map */
