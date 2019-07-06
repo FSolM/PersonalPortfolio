@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap');
+
+a:hover { text-decoration: none; }
+
+body {
+  color: #707070;
+  font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+  background-color: #ededed;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+p { margin: 2.5rem 0; }
+
+footer {
+  .container { padding: 0; }
+  .col-md-12 {
+    background-color: #484848;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+
+[class^="icon-"] {
+  border-radius: 50%;
+  display: block;
+  height: 4rem;
+  transition: all 500ms ease;
+  width: 4rem;
+}
+
+.additional-projects {
+  div:nth-of-type(1):hover,
+  div:nth-of-type(4):hover { background-color: #4e77ff; }
+  div:nth-of-type(2):hover,
+  div:nth-of-type(5):hover { background-color: #ff4242; }
+  div:nth-of-type(3):hover,
+  div:nth-of-type(6):hover { background-color: #21e135; }
+  p {
+    font-size: 1.7rem;
+    margin: 1.5rem 0;
+  }
+  .col-md-12 {
+    background-color: #ffffff;
+    border: 1px solid #707070;
+    padding: 1.5rem;
+    &:hover {
+      box-shadow: 0 0 0.6rem 0.2rem #04040463;
+      color: #ffffff;
+    }
+  }
+}
+
+.extra-section {
+  margin: 2.5rem 0;
+  a:hover { color: #a3a3a3; }
+  p {
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin: 4rem 0 4rem 1.5rem;
+  }
+  .col-md-12 {
+    border-bottom: 0.25rem solid #707070;
+    border-top: 0.25rem solid #707070;
+  }
+}
+
+.icon-github {
+  background-image: url("../images/logos/GitHub-Logo.png");
+  background-size: 100%;
+  &:hover { background-image: url("../images/logos/GitHub-Logo-Alt.png"); }
+}
+
+.icon-instagram {
+  background-image: url("../images/logos/Instagram-Logo.png");
+  background-size: 100%;
+  &:hover {
+    background-image: url("../images/logos/Instagram-Logo-Alt.png");
+    border-radius: 25%;
+  }
+}
+
+.icon-medium {
+  background-image: url("../images/logos/Medium-Logo.png");
+  background-size: 100%;
+  &:hover {
+    background-image: url("../images/logos/Medium-Logo-Alt.png");
+    border-radius: 25%;
+  }
+}
+
+.icon-linkedin {
+  background-image: url("../images/logos/LinkedIn-Logo.png");
+  background-size: 100%;
+  border-radius: 25%;
+  &:hover { background-image: url("../images/logos/LinkedIn-Logo-Alt.png"); }
+}
+
+.icon-twitter {
+  background-image: url("../images/logos/Twitter-Logo.png");
+  background-size: 100%;
+  &:hover { background-image: url("../images/logos/Twitter-Logo-Alt.png") }
+}
+
+.introduction-extra {
+  font-size: 2.5rem;
+  span:nth-of-type(1) {
+    /* @Microverse Text */
+    color: #5f4eff;
+  }
+  span:nth-of-type(2) {
+    /* @PozolCode Text */
+    color: #724400;
+  }
+}
+
+.introduction-social {
+  justify-content: space-around;
+  list-style: none;
+  margin: 3.5rem 0 0 0;
+  width: 100%;
+}
+
+.introduction-title {
+  font-size: 3.8rem;
+  font-weight: 600;
+  span { color: #678aff; }
+}
+
+.main-container {
+  .row { padding: 0; }
+}
+
+.project-container {
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  font-weight: 600;
+  &:hover {
+    box-shadow: 0 0 0.6rem 0.2rem #04040463;
+    color: #ffffff;
+  }
+  &.feature-blue:hover { background-color: #4e77ff; }
+  &.feature-green:hover { background-color: #21e135; }
+  &.feature-red:hover { background-color: #ff4242; }
+  &.feature-yellow:hover { background-color: #ffE014; }
+}
+
+.sticky-container {
+  background-color: #ffffff;
+  position: sticky;
+  top: 2.8rem;
+}
