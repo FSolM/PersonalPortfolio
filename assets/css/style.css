@@ -94,15 +94,12 @@ footer .col-12 {
   color: #a3a3a3;
 }
 
-.extra-section p {
-  font-size: 2.25rem;
-  font-weight: 600;
-  margin: 4rem 0 4rem 1.5rem;
-}
-
-.extra-section .col-md-12 {
+.extra-section .col-12 {
   border-bottom: 0.25rem solid #707070;
   border-top: 0.25rem solid #707070;
+  font-size: 2.25rem;
+  font-weight: 600;
+  padding: 2.5rem 0 2.5rem 1.5rem;
 }
 
 .icon-github {
