@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import MainSection from './components/MainSection';
 import SideMenu from './components/SideMenu';
+import Models from './components/3DModels';
 
 import './css/tejuino.css';
 import './css/style.css';
@@ -15,7 +16,9 @@ function App() {
         <Router>
           <Switch>
             <Route path = '/models'>
-              <div className = 'col-12'>Models</div>
+              <div className = 'col-12'>
+                <Models />
+              </div>
             </Route>
             <Route path = '/'>
               <div className = 'col-sm-5'>
